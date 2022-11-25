@@ -1,0 +1,42 @@
+[
+    {
+        "productName": "Peril of Zeus Tee",
+        "productID": "1",
+        "productPrice": "19.99",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus turpis quis venenatis pretium. Donec finibus dolor sit amet nisl imperdiet, sed fermentum mi egestas. Proin consequat at nibh a rutrum. Aenean dapibus efficitur mi, nec congue ex tristique auctor. Nunc et augue a massa vestibulum posuere.",
+        "currentStockCount": 2,
+        "maxStockCount": 10
+    },
+    {
+        "productName": "Escape From Reality Tee",
+        "productID": "2",
+        "productPrice": "29.99",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus turpis quis venenatis pretium. Donec finibus dolor sit amet nisl imperdiet, sed fermentum mi egestas. Proin consequat at nibh a rutrum. Aenean dapibus efficitur mi, nec congue ex tristique auctor. Nunc et augue a massa vestibulum posuere.",
+        "currentStockCount": 0,
+        "maxStockCount": 10
+    },
+    {
+        "productName": "Demand Peace Tee",
+        "productID": "3",
+        "productPrice": "25.99",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus turpis quis venenatis pretium. Donec finibus dolor sit amet nisl imperdiet, sed fermentum mi egestas. Proin consequat at nibh a rutrum. Aenean dapibus efficitur mi, nec congue ex tristique auctor. Nunc et augue a massa vestibulum posuere.",
+        "currentStockCount": 10,
+        "maxStockCount": 10
+    },
+    {
+        "productName": "Identity Thief Tee",
+        "productID": "4",
+        "productPrice": "25.99",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus turpis quis venenatis pretium. Donec finibus dolor sit amet nisl imperdiet, sed fermentum mi egestas. Proin consequat at nibh a rutrum. Aenean dapibus efficitur mi, nec congue ex tristique auctor. Nunc et augue a massa vestibulum posuere.",
+        "currentStockCount": 10,
+        "maxStockCount": 10
+    },
+    {
+        "productName": "Fallen Gods Tee",
+        "productID": "5",
+        "productPrice": "25.99",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus turpis quis venenatis pretium. Donec finibus dolor sit amet nisl imperdiet, sed fermentum mi egestas. Proin consequat at nibh a rutrum. Aenean dapibus efficitur mi, nec congue ex tristique auctor. Nunc et augue a massa vestibulum posuere.",
+        "currentStockCount": 10,
+        "maxStockCount": 10
+    }
+]

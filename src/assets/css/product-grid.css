@@ -1,0 +1,90 @@
+/* © TOKM Solutions (PTY) LTD, 2022. */
+:root {
+    --product-columns: 4;
+}
+
+.product--grid {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 0 auto;
+}
+
+.product--grid>a>div {
+    height: max-content;
+}
+
+.product--image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.product--image-container {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+}
+
+.product--image-container>* {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+@keyframes drop-in {
+    from {
+        margin-bottom: 0;
+    }
+
+    to {
+        margin-bottom: 10px;
+    }
+}
+
+.atc--btn {
+    animation: drop-in .1s linear forwards;
+}
+
+.details {
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 1.3em;
+}
+
+.atc--btn {
+    width: 120px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0c0c;
+    border-radius: 20px;
+}
+
+.atc--btn>span {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .product--grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .atc--btn {
+        display: inline-flex !important;
+    }
+}

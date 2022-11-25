@@ -1,0 +1,88 @@
+/* © TOKM Solutions (PTY) LTD, 2022. */
+:root {
+    --product-columns: 4;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--product-columns), minmax(0, 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.product-grid > a > div {
+    height: 75vh;
+}
+
+.picture {
+    width: 100%;
+    height: 80%;
+    background: white;
+}
+
+.details {
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.price {
+    font-size: 1.3em;
+}
+
+.filters--block {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filters, .sort {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.change-filter {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-filter>button {
+    cursor: pointer;
+    background: #d2d2d2;
+    border: 0;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.sort>select {
+    background: #d2d2d2;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+.sort>select option:active, .sort>select option:hover {
+    background: red;
+}
+
+@media screen and (max-width: 768px) {
+    .filters--block {
+        justify-content: space-evenly;
+    }
+
+    .sort>select {
+        margin: 0;
+    }
+}

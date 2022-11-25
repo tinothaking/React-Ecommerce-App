@@ -1,0 +1,29 @@
+/* © TOKM Solutions (PTY) LTD, 2022. */
+.index--content {
+    display: flex;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+
+.left > span, .right > span {
+    text-align: center;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .left, .right {
+        display: none;
+    }
+}
