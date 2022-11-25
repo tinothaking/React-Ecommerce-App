@@ -1,8 +1,5 @@
 {
     "files.exclude": {
-        ".gitignore": true,
-        "*.json": true,
-        "*.md": true,
-        "node_modules": true
+        "*.md": true
     }
 }
